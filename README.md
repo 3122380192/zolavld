@@ -8,9 +8,9 @@
 
 | Hệ điều hành | File | Cách dùng |
 |--------------|------|-----------|
-| **Windows 10/11 (x64)** | `ZolaVLD-Setup-26.7.1.exe` | **Double-click → cài xong tự chạy** (one-click, không hỏi thư mục) |
-| **Windows portable** | `ZolaVLD-26.7.1-win-x64-portable.zip` | Giải nén → chạy `ZolaVLD.exe` |
-| **Linux x64** | `ZolaVLD-26.7.1-linux-x64.zip` | Giải nén → `chmod +x zolavld` → `./zolavld` |
+| **Windows 10/11 (x64)** | `ZolaVLD-Setup-26.7.2.exe` | **Double-click → cài xong tự chạy** (one-click, không hỏi thư mục) |
+| **Windows portable** | `ZolaVLD-26.7.2-win-x64-portable.zip` | Giải nén → chạy `ZolaVLD.exe` |
+| **Linux x64** | `ZolaVLD-26.7.2-linux-x64.zip` | Giải nén → `chmod +x zolavld` → `./zolavld` |
 
 > **Lưu ý Windows SmartScreen:** app chưa code-sign → *More info* → *Run anyway*.
 
@@ -31,4 +31,4 @@
 Chỉ phát hành bản cài đặt tại repo này (không có source code).
 
 ---
-**ZolaVLD** · v26.7.1
+**ZolaVLD** · v26.7.2
