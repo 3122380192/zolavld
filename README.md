@@ -1,34 +1,36 @@
 # ZolaVLD
 
-Ứng dụng desktop quản lý **Zalo & Facebook** đa tài khoản — CRM, Workflow, AI, hẹn giờ tin nhắn, Telegram sync.
+Ung dung desktop quan ly **Zalo & Facebook** da tai khoan — CRM, Workflow, AI, hen gio tin nhan, Telegram sync.
 
-## ⬇️ Tải bản cài đặt
+## Tai ban cai dat
 
-👉 **[Releases (tải file mới nhất)](https://github.com/3122380192/zolavld/releases/latest)**
+**[Releases (tai file moi nhat)](https://github.com/3122380192/zolavld/releases/latest)**
 
-| Hệ điều hành | File | Cách dùng |
+| He dieu hanh | File | Cach dung |
 |--------------|------|-----------|
-| **Windows 10/11 (x64)** | `ZolaVLD-Setup-26.7.2.exe` | **Double-click → cài xong tự chạy** (one-click, không hỏi thư mục) |
-| **Windows portable** | `ZolaVLD-26.7.2-win-x64-portable.zip` | Giải nén → chạy `ZolaVLD.exe` |
-| **Linux x64** | `ZolaVLD-26.7.2-linux-x64.zip` | Giải nén → `chmod +x zolavld` → `./zolavld` |
+| **Windows 10/11 (x64)** | `ZolaVLD-Setup-26.7.7.exe` | Double-click — cai one-click |
+| **Windows portable** | `ZolaVLD-26.7.7-win-x64-portable.zip` | Giai nen → chay `ZolaVLD.exe` |
+| **Linux AppImage** | `ZolaVLD-26.7.7-x86_64.AppImage` | `chmod +x` rồi `./ZolaVLD-...AppImage` |
+| **Linux deb** | `ZolaVLD-26.7.7-amd64.deb` | `sudo dpkg -i ZolaVLD-26.7.7-amd64.deb` |
+| **Linux portable** | `ZolaVLD-26.7.7-linux-x64.zip` | Giai nen → `./run-zolavld.sh` |
 
-> **Lưu ý Windows SmartScreen:** app chưa code-sign → *More info* → *Run anyway*.
+> **Windows SmartScreen:** app chua code-sign → *More info* → *Run anyway*.
 
-> **Linux AppImage/deb:** build native AppImage cần máy Linux (CI). Bản zip portable chạy được trên hầu hết distro x64.
+## Tinh nang noi bat
 
-## Tính năng nổi bật
-
-- Đa tài khoản Zalo / Facebook, inbox gộp
+- Da tai khoan Zalo / Facebook, inbox gop
 - CRM, campaign, workflow, AI assistant
-- Hẹn giờ nhắn tin ⏰
-- Ghost read (đọc không hiện đã xem)
-- Tìm file nhanh (Ctrl×2), chụp màn hình
-- Đồng bộ Telegram, gửi file LAN
-- Bộ gõ tiếng Việt Telex/VNI trong app
+- Hen gio nhan tin
+- Ghost read (doc khong hien da xem)
+- Tim file nhanh (Ctrl x2)
+- **Chup man hinh kieu Lightshot** (Ctrl+Shift+S): chon vung + ve chu thich
+- Dong bo Telegram, gui file LAN
+- Bo go tieng Viet Telex/VNI trong app
+- Thong bao toast noi desktop (khong can cap quyen Windows)
 
-## Hỗ trợ
+## Ho tro
 
-Chỉ phát hành bản cài đặt tại repo này (không có source code).
+Chi phat hanh ban cai dat tai repo nay (khong co source code).
 
 ---
-**ZolaVLD** · v26.7.2
+**ZolaVLD** — v26.7.7
