@@ -1,36 +1,35 @@
 # ZolaVLD
 
-Ung dung desktop quan ly **Zalo & Facebook** da tai khoan — CRM, Workflow, AI, hen gio tin nhan, Telegram sync.
+Ung dung desktop quan ly **Zalo & Facebook** da tai khoan.
 
 ## Tai ban cai dat
 
-**[Releases (tai file moi nhat)](https://github.com/3122380192/zolavld/releases/latest)**
+**[Releases moi nhat](https://github.com/3122380192/zolavld/releases/latest)**
 
-| He dieu hanh | File | Cach dung |
-|--------------|------|-----------|
-| **Windows 10/11 (x64)** | `ZolaVLD-Setup-26.7.7.exe` | Double-click — cai one-click |
-| **Windows portable** | `ZolaVLD-26.7.7-win-x64-portable.zip` | Giai nen → chay `ZolaVLD.exe` |
-| **Linux AppImage** | `ZolaVLD-26.7.7-x86_64.AppImage` | `chmod +x` rồi `./ZolaVLD-...AppImage` |
-| **Linux deb** | `ZolaVLD-26.7.7-amd64.deb` | `sudo dpkg -i ZolaVLD-26.7.7-amd64.deb` |
-| **Linux portable** | `ZolaVLD-26.7.7-linux-x64.zip` | Giai nen → `./run-zolavld.sh` |
+### Windows
+| File | Cach dung |
+|------|-----------|
+| `ZolaVLD-Setup-26.7.8.exe` | Double-click cai one-click |
 
-> **Windows SmartScreen:** app chua code-sign → *More info* → *Run anyway*.
+### Linux (double-click)
+| File | Cach dung |
+|------|-----------|
+| **`ZolaVLD-Setup-26.7.8-x86_64.run`** | **Double-click → Run → Cai dat** (khuyen nghi) |
+| `ZolaVLD-Setup-26.7.8-amd64.deb` | Double-click → Ubuntu Software → Install |
+| `ZolaVLD-Setup-26.7.8-x86_64.AppImage` | Double-click → chay luon (khong can cai) |
 
-## Tinh nang noi bat
+Neu file `.run` khong chay: chuot phai → Properties → **Allow executing file as program** → double-click lai → **Run**.
 
-- Da tai khoan Zalo / Facebook, inbox gop
-- CRM, campaign, workflow, AI assistant
-- Hen gio nhan tin
-- Ghost read (doc khong hien da xem)
-- Tim file nhanh (Ctrl x2)
-- **Chup man hinh kieu Lightshot** (Ctrl+Shift+S): chon vung + ve chu thich
-- Dong bo Telegram, gui file LAN
-- Bo go tieng Viet Telex/VNI trong app
-- Thong bao toast noi desktop (khong can cap quyen Windows)
+Setup Linux cai vao `~/.local/share/ZolaVLD`, tao icon menu + Desktop, **khong can sudo**.
 
-## Ho tro
+### Portable
+| File | He |
+|------|-----|
+| `ZolaVLD-26.7.8-win-x64-portable.zip` | Windows |
+| `ZolaVLD-26.7.8-linux-x64.zip` | Linux |
 
-Chi phat hanh ban cai dat tai repo nay (khong co source code).
+## Tinh nang
+Da tai khoan, CRM, workflow, AI, hen gio tin, Lightshot screenshot, Telegram, LAN, bo go TV, toast desktop...
 
 ---
-**ZolaVLD** — v26.7.7
+**ZolaVLD** — v26.7.8
